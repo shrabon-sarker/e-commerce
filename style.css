@@ -1,0 +1,241 @@
+  /*===================================
+				About
+   =================================== */
+
+/*
+    Theme Name: monica
+    Theme URI: http://moncia.com
+    Author: shrabon
+    Author URI: http://shrabon.com
+    Description: this is e-commarce website.
+    Tags: One page, multi page, multipurpose, creative, html5, css3, javacript, bootstrap.
+
+ */
+
+/* ===================================
+          Table of Contents
+   =================================== */
+
+/*
+	01. Typography
+	02. Header Area
+	03. slider atrea
+	04. product area
+	05. about -area
+	06. new photo
+	07. video area
+	08. Footer Area
+ */
+
+/*Table Of Contents ends */
+
+
+/*Global Styling*/
+
+/*=====================================
+				Typography
+=========================================*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em;
+    font-size: 13px 
+}
+
+
+
+
+/*=====================================
+		header area strats
+=========================================*/
+
+.header-area {
+    background: #232323;
+    color: #ffffff;
+    overflow: hidden;
+    padding: 22px 0 10px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.icons a {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.lr li a {
+    color: #595959;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.main-mune ul li a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 16px;
+    transition: 0.5s;
+}
+.main-mune ul li a:hover {
+    color: #be926f;
+    text-decoration: none;
+}
+
+/*=====================================
+		header area end
+=========================================*/
+
+/*=====================================
+		shilder area strats
+=========================================*/
+.schilder-area {
+    background: url('images/bg.jpg') no-repeat center / 100% 100%;
+    
+}
+
+.blar {
+    background: rgba(0,0,0,0.7);
+    padding: 153px 0;
+    color: #ffffff;
+}
+
+.small-sm {
+    font-size: 17px;
+}
+
+.shild h2 {
+    font-weight: 700;
+}
+
+.cp p {
+    font-size: 14px;
+}
+.text-info {
+    color: #be926f;
+}
+
+.btn-info {
+    background: #be926f;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border: 1px solid #be926f;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 0;
+}
+/*=====================================
+		produ us area strats
+=========================================*/
+
+.product-area {
+    padding: 25px 0;
+}
+
+.buy-card img {
+    height: 225px;
+
+}
+
+.buy-card {
+    position: relative;
+}
+
+.add-buy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 1s;
+}
+
+.buy-card:hover .add-buy {
+    opacity: 1;
+    background: rgba(0,0,0,0.7);
+}
+/*=====================================
+		about us area strats
+=========================================*/
+
+.about-area {
+    background: #232323;
+    padding: 60px 0;
+}
+
+.br {
+    border: 1px solid #be926f;
+    width: 50px;
+    margin: auto;
+}
+
+.para {
+    font-size: 15px;
+    padding: 12px 120px;
+    line-height: 1.7em;
+}
+
+
+/*=====================================
+		new photo us area strats
+=========================================*/
+.newphoto-area {
+    margin-bottom: 50px;
+}
+.n-p span {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.fa-caret-right,
+.fa-caret-left {
+    font-size: 30px;
+}
+
+
+/*=====================================
+		video  area strats
+=========================================*/
+
+.video-area {
+    background: #232323;
+    padding: 50px 0;
+}
+
+/*=====================================
+	contact area strats
+=========================================*/
+
+.contact-area {
+    padding: 50px;
+}
+
+.fa-envelope,
+ .fa-mobile-alt,
+ .fa-map-marker-alt {
+    font-size: 30px;
+    color: #be926f;
+}
+
+
+.footer-area {
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 20px 0 15px;
+    margin-bottom: 30px;
+}
+
+.socail ul li a {
+    color: #bfbfbf;
+    font-size: 17px;
+}
+
+.footer-linek ul li a {
+    color: #bfbfbf;
+    font-size: 14px;
+        
